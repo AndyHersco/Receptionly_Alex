@@ -153,6 +153,31 @@ The same data + API backs **both** the web app and the Voice Agent's custom func
 5. **Voice Agent (third-party integrations)** — Retell functions against Boulevard/Booksy/etc. for the expansion segment.
 6. **Notifications** — email reminders are in the base plan (Resend); add SMS reminders.
 
+### v1 feature scope — must-haves for the first release
+_(All ride on the backend, phase 1.)_
+
+- **Calendar integrations** _(owner: Alex)_ — Google Calendar, Apple Calendar, Microsoft Outlook, etc.
+  - **Import** the shop's existing calendar.
+  - **Two-way sync** — changes on the external calendar update Receptionly, and changes in Receptionly update the external calendar, so **staff never have to open our app** if they don't want to.
+- **Email reminders** _(owner: Andy — via **Resend**)_ — every email includes a **cancellation link**. Email types:
+  1. Booking **confirmation**
+  2. **24-hour** reminder
+  3. **1-hour** reminder
+  4. **Cancellation confirmation**
+  5. **Reschedule confirmation**
+  - _(Consistent with the Base plan, which already promises "automated email reminders.")_
+- **Mobile** — every screen must look good on a phone (the UI is already responsive; treat it as a release gate).
+
+### Backlog — planned after v1
+- **Payments:** card-on-file for **cancellation fees**; store client cards with **notes / photos / history**; **pay or take a deposit at booking**.
+- **Free SMS appointment reminders** (transactional text reminders).
+- **Client reviews.**
+- **Custom photos for services.**
+- **Marketing & CRM:** **unlimited** email + push marketing messages _(benchmark: Booksy gives 2,000 SMS free — we aim to beat that)_; automated, customizable **text & email campaigns**.
+- **Client management:** memberships / rewards program; **recurring appointments**; **block clients**; **waitlist**.
+- **Inventory management.**
+- **Booking tools:** **Instagram & Facebook** booking integration; **Reserve with Google** (get booked from Google Search & Maps — handled through Google).
+
 ---
 
 ## 7. Business model, pricing & unit economics
